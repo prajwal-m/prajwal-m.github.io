@@ -1,0 +1,88 @@
+.experience-section {
+  padding: 12rem 6rem;
+  background: #fafafa;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  row-gap: 3rem;
+  padding: 0 6rem;
+  text-align: start;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 3rem;
+  border-left: 1px solid grey;
+}
+
+.tl-icon {
+  position: absolute;
+  left: -27px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #facf0f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tl-icon i {
+  font-size: 1.3rem;
+}
+
+.tl-duration {
+  padding: 0.4rem 1rem;
+  background-color: #facf0f;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.timeline-item h5 {
+  padding: 1rem 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.timeline-item h5 span {
+  color: grey;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.timeline-item p {
+  color: grey;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .experience-section {
+    padding: 8rem 3rem;
+  }
+}
+
+.dark-mode .experience-section {
+  background: #16161d;
+}
+
+.dark-mode h5,
+.dark-mode .tl-icon {
+  color: white;
+}

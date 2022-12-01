@@ -1,0 +1,32 @@
+.skills-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+.dark-mode .skill {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-list-wrapper {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .skill {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+}
