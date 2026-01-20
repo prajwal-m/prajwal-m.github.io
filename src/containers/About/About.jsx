@@ -16,13 +16,13 @@ const About = () => {
           <div className="about-content">
             <h2 className="about-content-heading">Get to know me!</h2>
             <p className="about-content-details">
-              I'm a front-end developer with a Bachelor's degree in Information
-              Science Engineering from PES Institute of Technology, Bangalore
-              and 3+ years of software development experience. I'm experienced
-              in front-end technologies such as HTML5, CSS3, JavaScript and
-              Typescript. I have also developed and maintained various
-              JavaScript applications and has exceptional knowledge of React.
-              Currently exploring React Native.
+              Adaptable and collaborative Front End Engineer with 6+ years of
+              experience building performant, accessible, and user-friendly web
+              and mobile applications. Proven ability to improve SEO,
+              performance, and maintainable UIs using modern JavaScript
+              frameworks and tooling. Seeking to leverage my skills to
+              contribute to impactful user interfaces and delightful customer
+              experiences.
             </p>
             <div class="btn-container">
               <a href="#test" target="_blank" class="main-btn">
@@ -47,7 +47,7 @@ const About = () => {
 
             <div className="about-card">
               <div className="about-text">
-                <p className="large-text">3+</p>
+                <p className="large-text">6+</p>
                 <p className="small-text">
                   Years of
                   <br />

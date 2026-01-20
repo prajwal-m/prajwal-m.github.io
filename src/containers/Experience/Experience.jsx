@@ -15,7 +15,34 @@ const Experience = () => {
             <div class="tl-icon">
               <i class="fa-solid fa-briefcase"></i>
             </div>
-            <p class="tl-duration">Aug 2020 - present</p>
+            <p class="tl-duration">Nov 2023 - 2026</p>
+            <h5>
+              Senior Software Engineer <span>- Giant Eagle GCC</span>
+            </h5>
+            <p>
+              - Developed and maintained Getgo Mobile (React Native) and Getgo
+              Web applications, delivering new features, fixing defects, and
+              resolving accessibility issues to achieve compliance
+              certification.
+              <br />- Developed a customer-facing Immunization Portal using
+              Next.js and Next.js API routes to handle vaccine and immunization
+              request workflows.
+              <br />- Built a Pharmacist Portal to manage immunization requests,
+              support store-level operations, and streamline vaccine
+              administration processes.
+              <br />- Worked on a reusable React component library used across
+              multiple projects, ensuring consistent branding, theming, and
+              improved development efficiency.
+              <br />- Built core functionality for a Grocery Kiosk application,
+              including product search and filtering, improving in-store
+              navigation and usability.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <p class="tl-duration">Aug 2020 - Nov 2023</p>
             <h5>
               Software Engineer <span>- Y Media Labs</span>
             </h5>
