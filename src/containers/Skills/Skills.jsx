@@ -1,34 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import "./skills.css";
 import SkillList from "../../components/SkillList/SkillList";
-// const TagCloud = require("TagCloud");
 import TagCloud from "TagCloud";
 
 const Skils = () => {
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const skillList = [
-    "JavaScript",
-    "CSS",
-    "HTML",
-    "React",
-    "Next.js",
-    "GraphQL",
-    "Strapi",
-    "Dato CMS",
-    "Contentful",
-    "Web Accessibility",
-    "Git",
-    "DOM Manipulation",
-    "Stencil",
-    "React Native",
-    "Node Js",
-    "Aframe",
-  ];
+  const skillList = useMemo(
+    () => [
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "React",
+      "Next.js",
+      "GraphQL",
+      "Strapi",
+      "Dato CMS",
+      "Contentful",
+      "Web Accessibility",
+      "Git",
+      "DOM Manipulation",
+      "Stencil",
+      "React Native",
+      "Node Js",
+      "Aframe",
+    ],
+    [],
+  );
 
   useEffect(() => {
     const tagCloudEl = document.querySelector(".tagcloud");
     if (!tagCloudEl) {
-      TagCloud(".content", skillList, { radius: 200 });
+      try {
+        TagCloud(".content", skillList, { radius: 200 });
+      } catch (error) {
+        console.error("Error initializing TagCloud:", error);
+      }
     }
   }, [skillList]);
 
