@@ -25,7 +25,11 @@ const About = () => {
               experiences.
             </p>
             <div class="btn-container">
-              <a href="#test" target="_blank" class="main-btn">
+              <a
+                href="https://github.com/prajwal-m/prajwal-m.github.io/blob/main/resume/Prajwal-M-Resume.pdf"
+                target="_blank"
+                class="main-btn"
+              >
                 <span class="btn-text">Resume</span>
                 <span class="btn-icon">
                   <i class="fa-solid fa-download"></i>
